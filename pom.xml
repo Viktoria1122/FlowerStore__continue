@@ -76,4 +76,17 @@
 		</plugins>
 	</build>
 
+	<build>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <configuration>
+	                <mainClass>ua.edu.ucu.apps.FlowerStoreApplication</mainClass> <!-- Змініть на ваш головний клас -->
+	            </configuration>
+	        </plugin>
+	    </plugins>
+	</build>
+
+
 </project>
